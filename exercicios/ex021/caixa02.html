@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: gray;
+            margin: 0px;
+        }
+
+        header {
+            background-color: aliceblue;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        nav {
+            background-color: gray;
+            padding: 10px;
+            box-shadow: 5px 4px 2px 1px rgba(0, 0, 0, 0.342);
+        }
+
+        nav > a {
+            background-color: gray;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+
+        nav > a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            background-color: aliceblue;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px 0px;
+        }
+
+        article {
+            background-color: lightgrey;
+        }
+
+        article > aside {
+            background-color: gray;
+        }
+        
+        
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 4px;
+            margin: 0px;
+        }
+
+        footer > p {
+            margin: 0px;
+        }
+
+        div#bola {
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+            background-color: wheat;
+            border-radius: 50%;
+
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+
+    </header>
+
+    <main>
+        <section id="assunto">
+
+        </section>
+        <section id="noticia">
+            <article>
+                <h2>Matrizes no Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis fugiat tempora ea similique commodi sed laborum atque, totam, dicta natus illo architecto necessitatibus. Accusantium, ipsam. Earum laborum assumenda velit non.</p>
+                <aside>
+                    <p>Artigo escrito por Vitor de Paula</p>
+                </aside>
+            </article>
+            <article>
+
+            </article>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Desenvolvido por Vitor de Paula</p>
+    </footer>
+    <div id="bola"></div>
+</body>
+</html>
